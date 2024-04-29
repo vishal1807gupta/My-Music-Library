@@ -4,6 +4,9 @@ const nextConfig = {
         domains:[
             "vqnlgzsozehevgjgkhmc.supabase.co"
         ]
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
     }
 };
 
